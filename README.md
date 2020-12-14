@@ -1,2 +1,17 @@
-# hotel-reviews-sentiment-analysis
-This projects classifies sentiment ratings of hotel reviews
+# Hotel Reviews Sentiment Analysis
+This project aims to classify ratings of the hotel reviews. There are 5 ratings (i.e., class) in the dataset along with the reviews. The dataset is quite balanced among the 5 classes. The objective is to develop two different classification models i.e., a baseline and a state of the art(SOTA) model to compare the performance of classifying ratings. To uncover interesting insights from the data, different exploratory analyses have been performed. Also, the dataset includes unstructured data (i.e., reviews) which need further conversion (e.g.,vectorization) before this can be used in any machine learning model. Different approaches have been followed for developing the models.
+
+Baseline Model (TF-IDF + Logistic Regression): The baseline model consists of a simple vectorization (i.e., feature engineering) approach using TF-IDF. The resultant vectorized texts are then used for classification using Logistic Regression. Overall, 75.8 % accuracy is achieved from this model.   
+
+SOTA Model (BERT): The SOTA model leverages transfer learning and a custom BERT model to classify the reviews. Overall, 79% accuracy is achieved from this model.
+
+# Performance
+
+# How to run:
+Baseline model: Please check the hotel_reviews_sentiment_baseline.ipynb file for the detailed analysis. The trained baseline model can be loaded using the following command:
+
+> pickle.load('model_baseline.pkl')
+
+SOTA model: Please check the hotel_reviews_sentiment_sota.ipynb file for the detailed analysis. The trained sota model can be loaded using the following command:
+
+> torch.load('model_sota.pb')
