@@ -32,9 +32,9 @@ SOTA Model (RoBERTa): The SOTA model leverages transfer learning and a custom Ro
 <img src="images/performance_sota.PNG" width="40%">
 
 # Remarks
- Analyzing the performance it is clear that the models are mostly strruglying in classifying intermediary sentiment classes (i.e.rating 2 & 4). 
- From the proof of concept analysis, it has been seen that the reviews within those classes consist similar words.
- Therefore to draw a clear boundary one of the solutions can be integrating rating - 1 & 2 as :Negative Sentiment, rating 3 as : Neutral and rating 4 & 5 as: Positive Sentiment. 
+• Analyzing the performance it is clear that the models are mostly strruglying in classifying intermediary sentiment classes (i.e.rating 2 & 4). <br/>
+• From the proof of concept analysis, it has been seen that the reviews within those classes consist similar words. <br/>
+• Therefore to draw a clear boundary one of the solutions can be integrating rating - 1 & 2 as :Negative Sentiment, rating 3 as : Neutral and rating 4 & 5 as: Positive Sentiment. <br/>
 
 # How to run:
 Baseline model: Please check the hotel_reviews_sentiment_baseline.ipynb file for the detailed analysis. The trained baseline model can be loaded using the following command:
