@@ -13,20 +13,20 @@ SOTA Model (RoBERTa): The SOTA model leverages transfer learning and a custom Ro
 
 # Data Analysis and Performance
 ### Class Distribution
-<img src="class_distribution.PNG" width="50%">
+<img src="images/class_distribution.PNG" width="50%">
 
 ### Length Distribution
-<img src="length_distribution.PNG" width="50%">
+<img src="images/length_distribution.PNG" width="50%">
 
 ### Frequently appeared words
-<img src="rating1_words.PNG" width="40%">
+<img src="images/rating1_words.PNG" width="40%">
 
-<img src="rating3_words.PNG" width="40%">
+<img src="images/rating3_words.PNG" width="40%">
 
-<img src="rating5_words.PNG" width="40%">
+<img src="images/rating5_words.PNG" width="40%">
 
 ### Performance
-<img src="performance_lr.PNG" width="40%">
+<img src="images/performance_lr.PNG" width="40%">
 
 # How to run:
 Baseline model: Please check the hotel_reviews_sentiment_baseline.ipynb file for the detailed analysis. The trained baseline model can be loaded using the following command:
