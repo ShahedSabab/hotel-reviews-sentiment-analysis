@@ -25,8 +25,11 @@ SOTA Model (RoBERTa): The SOTA model leverages transfer learning and a custom Ro
 
 <img src="images/rating5_words.PNG" width="40%">
 
-### Performance
+### Performance baseline model
 <img src="images/performance_lr.PNG" width="40%">
+
+### Performance sota model
+<img src="images/performance_sota.PNG" width="40%">
 
 # How to run:
 Baseline model: Please check the hotel_reviews_sentiment_baseline.ipynb file for the detailed analysis. The trained baseline model can be loaded using the following command:
