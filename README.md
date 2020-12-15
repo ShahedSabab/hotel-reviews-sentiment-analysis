@@ -5,11 +5,11 @@ Baseline Model (TF-IDF + Logistic Regression): The baseline model consists of a 
 
 SOTA Model (RoBERTa): The SOTA model leverages transfer learning and a custom RoBERTa model to classify the reviews. Overall, 79% accuracy is achieved from this model.
 
-• The base model uses Tf-Idf and logistic regression.
-• Pytorch is used to develop the SOTA model.
-• The SOTA model uses Hugging face 'roberta-base' pretrained model.
-• Dropout has been performed to reduce overfitting.
-• The best model(SOTA) achieves 79% accuracy.
+• The base model uses Tf-Idf and logistic regression.<br/>
+• Pytorch is used to develop the SOTA model.<br/>
+• The SOTA model uses Hugging face 'roberta-base' pretrained model.<br/>
+• Dropout has been performed to reduce overfitting.<br/>
+• The best model(SOTA) achieves 79% accuracy.<br/>
 
 # Data Analysis and Performance
 ### Class Distribution
@@ -19,14 +19,14 @@ SOTA Model (RoBERTa): The SOTA model leverages transfer learning and a custom Ro
 <img src="length_distribution.PNG" width="60%">
 
 ### Frequently appeared words
-<img src="rating1_words.PNG" width="50%">
+<img src="rating1_words.PNG" width="40%">
 
-<img src="rating3_words.PNG" width="50%">
+<img src="rating3_words.PNG" width="40%">
 
-<img src="rating5_words.PNG" width="50%">
+<img src="rating5_words.PNG" width="40%">
 
 ### Performance
-<img src="performance_lr.PNG" width="50%">
+<img src="performance_lr.PNG" width="30%">
 
 # How to run:
 Baseline model: Please check the hotel_reviews_sentiment_baseline.ipynb file for the detailed analysis. The trained baseline model can be loaded using the following command:
