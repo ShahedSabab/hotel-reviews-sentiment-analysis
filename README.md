@@ -37,10 +37,16 @@ SOTA Model (RoBERTa): The SOTA model leverages transfer learning and a custom Ro
 • Therefore to draw a clear boundary one of the solutions can be integrating rating - 1 & 2 as :Negative Sentiment, rating 3 as : Neutral and rating 4 & 5 as: Positive Sentiment. <br/>
 
 # How to run:
-Baseline model: Please check the hotel_reviews_sentiment_baseline.ipynb file for the detailed analysis. The trained baseline model can be loaded using the following command:
+
+1) The holdout data with the predictions can be found in the holdout_data directory.
+
+2) Baseline model: Please check the hotel_reviews_sentiment_baseline.ipynb file for the detailed analysis. The trained baseline model can be loaded using the following command:
 
 > pickle.load('model_baseline.pkl')
 
-SOTA model: Please check the hotel_reviews_sentiment_sota.ipynb file for the detailed analysis. The trained sota model can be loaded using the following command:
+3) SOTA model: Please check the hotel_reviews_sentiment_sota.ipynb file for the detailed analysis. The trained sota model can be found in the following link:
+https://drive.google.com/file/d/1csYp46k4_xXjecf4xcTS4Kie3PpD6WFX/view?usp=sharing
 
-> torch.load('model_sota.pb')
+It can be loaded using the following command:
+> model = SentimentClassifier(5)
+> model.load_state_dict(torch.load('model.bin'))
