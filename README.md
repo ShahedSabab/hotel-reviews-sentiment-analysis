@@ -3,7 +3,13 @@ This project aims to classify ratings of the hotel reviews. There are 5 ratings 
 
 Baseline Model (TF-IDF + Logistic Regression): The baseline model consists of a simple vectorization (i.e., feature engineering) approach using TF-IDF. The resultant vectorized texts are then used for classification using Logistic Regression. Overall, 75.8 % accuracy is achieved from this model.   
 
-SOTA Model (BERT): The SOTA model leverages transfer learning and a custom BERT model to classify the reviews. Overall, 79% accuracy is achieved from this model.
+SOTA Model (RoBERTa): The SOTA model leverages transfer learning and a custom RoBERTa model to classify the reviews. Overall, 79% accuracy is achieved from this model.
+
+• The base model uses Tf-Idf and logistic regression.
+• Pytorch is used to develop the SOTA model.
+• The SOTA model uses Hugging face 'roberta-base' pretrained model.
+• Dropout has been performed to reduce overfitting.
+• The best model(SOTA) achieves 79% accuracy.
 
 # Performance
 
