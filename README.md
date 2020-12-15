@@ -26,7 +26,7 @@ SOTA Model (RoBERTa): The SOTA model leverages transfer learning and a custom Ro
 <img src="images/rating5_words.PNG" width="40%">
 
 ### Performance baseline model
-<img src="images/performance_lr.PNG" width="40%">
+<img src="images/performance_lr.PNG" width="36%">
 
 ### Performance sota model
 <img src="images/performance_sota.PNG" width="40%">
