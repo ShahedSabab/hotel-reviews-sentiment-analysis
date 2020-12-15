@@ -11,13 +11,21 @@ SOTA Model (RoBERTa): The SOTA model leverages transfer learning and a custom Ro
 • Dropout has been performed to reduce overfitting.
 • The best model(SOTA) achieves 79% accuracy.
 
-# Performance
+# Data Analysis and Performance
+### Class Distribution
 <img src="class_distribution.PNG" width="60%">
+
+### Length Distribution
 <img src="length_distribution.PNG" width="60%">
 
+### Frequently appeared words
 <img src="rating1_words.PNG" width="50%">
+
 <img src="rating3_words.PNG" width="50%">
+
 <img src="rating5_words.PNG" width="50%">
+
+### Performance
 <img src="performance_lr.PNG" width="50%">
 
 # How to run:
