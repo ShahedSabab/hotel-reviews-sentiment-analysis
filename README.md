@@ -45,8 +45,9 @@ SOTA Model (RoBERTa): The SOTA model leverages transfer learning and a custom Ro
 > pickle.load('model_baseline.pkl')
 
 3) SOTA model: Please check the hotel_reviews_sentiment_sota.ipynb file for the detailed analysis. The trained sota model can be found in the following link:
-https://drive.google.com/file/d/1csYp46k4_xXjecf4xcTS4Kie3PpD6WFX/view?usp=sharing
+https://drive.google.com/drive/folders/13jkm3cjuiEk-Y_vpnkgZYy4U33P-L5Gb?usp=sharing
 
 It can be loaded using the following command:
 > model = SentimentClassifier(5)
+
 > model.load_state_dict(torch.load('model.bin'))
